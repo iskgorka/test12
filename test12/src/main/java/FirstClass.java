@@ -13,7 +13,7 @@ public class FirstClass {
         String searchFieldXpath = "//textarea[@id='APjFqb']";
 
         WebElement searchElement = driver.findElement(By.xpath(searchFieldXpath));
-        searchElement.sendKeys("SoftServe");
+        searchElement.sendKeys("Google");
         searchElement.submit();
 
         driver.close();
